@@ -12,4 +12,8 @@ public class Estudiante {
         this.nombre = nombre;
         this.edad = edad;
     }
+
+    public String getNombre(){
+        return nombre;
+    }
 }
