@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 public class Main {
     static void main() {
 
-        Estudiante est1 = new Estudiante();
+        Estudiante est1 = new Estudiante("Alvaro", 18);
 
         String json = new Gson().toJson(est1);
         System.out.println(json);
